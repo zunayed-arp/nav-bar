@@ -2,9 +2,35 @@ ul{
 	list-style-type: ;
 	margin:0;
 	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
 }
+
 li a{
 	display: block;
 	width: 60px;
 	background-color:skyblue;
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	border-radius: 4px 4px 4px 4px;
+
+
+}
+li a:hover{
+	background-color: #555;
+	color: white;
+}
+p{
+	display: block;
+	margin: 10px 10px 10px 10px;
+	background-color: skyblue;
+	border-radius: 10px 10px 10px;
+	text-align: justify;
+	padding: 10px 10px 10px 10px;
+}
+.para-header{
+	text-align: center;
+	background-color: skyblue;
+	border-radius: 10px 10px 10px 10px ;
+	margin: 10px 10px 10px 10px;
 }
